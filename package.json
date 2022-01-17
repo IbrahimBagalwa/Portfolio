@@ -1,0 +1,23 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IbrahimBagalwa/Portofolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IbrahimBagalwa/Portofolio/issues"
+  },
+  "homepage": "https://github.com/IbrahimBagalwa/Portofolio#readme",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "classlist-polyfill": "^1.2.0"
+  }
+}
