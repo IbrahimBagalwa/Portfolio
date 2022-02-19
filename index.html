@@ -1,912 +1,820 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--==================== UNICONS ====================-->
-    <link 
-        rel="stylesheet" 
-        href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
-    <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
-    <!--==================== CSS ====================-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>Ibrahim Portfolio</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--==================== UNICONS ====================-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!--==================== SWIPER CSS ====================-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <title>Ibrahim Portfolio</title>
 </head>
+
 <body>
-    <!--==================== HEADER ====================-->
-    <header class="header" id="header">
-        <nav class="nav container">
-          <a href="#" class="nav__logo">Ibrahim</a>
-          <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list grid">
-              <li class="nav__item">
-                <a href="#home" class="nav__link active-link"
-                  ><i class="uil uil-estate nav__icon"></i> Home</a
-                >
-              </li>
-              <li class="nav__item">
-                <a href="#about" class="nav__link"
-                  ><i class="uil uil-user nav__icon"></i> About</a
-                >
-              </li>
-              <li class="nav__item">
-                <a href="#skills" class="nav__link"
-                  ><i class="uil uil-file-alt nav__icon"></i> Skills</a
-                >
-              </li>
-              <li class="nav__item">
-                <a href="#services" class="nav__link"
-                  ><i class="uil uil-briefcase nav__icon"></i> Services</a
-                >
-              </li>
-              <li class="nav__item">
-                <a href="#portfolio" class="nav__link"
-                  ><i class="uil uil-scenery nav__icon"></i> Portfolio</a
-                >
-              </li>
-              <li class="nav__item">
-                <a href="#contact" class="nav__link"
-                  ><i class="uil uil-message nav__icon"></i> Contact me</a
-                >
-              </li>
-            </ul>
-            <i class="uil uil-times nav__close" id="nav-close"></i>
-          </div>
-          <div class="nav__btns">
-            <!-- Theme change button -->
-            <i class="uil uil-moon change-theme" id="theme-button"></i>
-            <div class="nav__toggle" id="nav-toggle">
-              <i class="uil uil-apps"></i>
-            </div>
-          </div>
-        </nav>
-    </header>
-      <!--==================== MAIN ====================-->
-    <main class="main">
-      <!--==================== HOME ====================-->
-      <section class="home section" id="home">
-        <div class="home__container container grid">
-          <div class="home__content grid">
-            <div class="home__social" id="home-social" >
-              <a href="https://www.linkedin.com/in/IbrahimBagalwa/" target="_blank" class="home__social-icon">
-                <i class="uil uil-linkedin-alt"></i>
-              </a>
-              <a href="https://github.com/IbrahimBagalwa" target="_blank" class="home__social-icon">
-                <i class="uil uil-github-alt"></i>
-              </a>
-              <a href="https://twitter.com/ibrahim_Bagalwa" target="_blank" class="home__social-icon">
-                <i class="uil uil-twitter-alt"></i>
-              </a>
-            </div>
-            <div class="home__img" >
-              <svg
-                class="home__blob"
-                viewBox="0 0 200 187"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <mask id="mask0" mask-type="alpha">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                </mask>
-                <g mask="url(#mask0)">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                  <image
-                    class="home__blob-img"
-                    x="17"
-                    xlink:href="assets/img/ibrahim.jpg"
-                  />
-                </g>
-              </svg>
-            </div>
-            <div class="home__data" >
-              <h1 class="home__title">Hi, I am Ibrahim</h1>
-              <h3 class="home__subtitle">Fullstack Developer</h3>
-              <p class="home__description">
-                I’m a software developer! I can help you build a product, feature
-                or website Look through some of my work and experience! If you like
-                what you see and have a project you need coded, don’t hestiate to
-                contact me.
-                    
-              </p>
-              <a href="#contact" class="button button--flex button__icon"
-                >Contact Me <i class="uil uil-message" id="message-ml"></i
-              ></a>
-            </div>
-          </div>
-          <div class="home__scroll">
-            <a href="#" class="home__scroll-button button--flex">
-              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-              <span class="home__scroll-name">Scroll down</span>
-              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Ibrahim</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link"><i class="uil uil-estate nav__icon"></i> Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link"><i class="uil uil-user nav__icon"></i> About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link"><i class="uil uil-file-alt nav__icon"></i> Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i> Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link"><i class="uil uil-briefcase nav__icon"></i> Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link"><i class="uil uil-message nav__icon"></i> Contact me</a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
+      </div>
+      <div class="nav__btns">
+        <!-- Theme change button -->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social" id="home-social">
+            <a href="https://www.linkedin.com/in/IbrahimBagalwa/" target="_blank" class="home__social-icon">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a href="https://github.com/IbrahimBagalwa" target="_blank" class="home__social-icon">
+              <i class="uil uil-github-alt"></i>
+            </a>
+            <a href="https://twitter.com/ibrahim_Bagalwa" target="_blank" class="home__social-icon">
+              <i class="uil uil-twitter-alt"></i>
             </a>
           </div>
+          <div class="home__img">
+            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <mask id="mask0" mask-type="alpha">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+              </mask>
+              <g mask="url(#mask0)">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                <image class="home__blob-img" x="17" xlink:href="assets/img/ibrahim.jpg" />
+              </g>
+            </svg>
+          </div>
+          <div class="home__data">
+            <h1 class="home__title">Hi, I am Ibrahim</h1>
+            <h3 class="home__subtitle">Fullstack Developer</h3>
+            <p class="home__description">
+              I’m a software developer! I can help you build a product, feature
+              or website Look through some of my work and experience! If you like
+              what you see and have a project you need coded, don’t hestiate to
+              contact me.
+
+            </p>
+            <a href="#contact" class="button button--flex button__icon">Contact Me <i class="uil uil-message"
+                id="message-ml"></i></a>
+          </div>
         </div>
-      </section>
-      <!--==================== ABOUT ====================-->
-      <section class="about section" id="about">
+        <div class="home__scroll">
+          <a href="#" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <span class="home__scroll-name">Scroll down</span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
       <h2 class="section__title" id="about-title">About Me</h2>
-      <span class="section__subtitle" id="about-subtitle"
-        >My introduction</span
-      >
+      <span class="section__subtitle" id="about-subtitle">My introduction</span>
 
       <div class="about__container container grid">
         <img src="assets/img/pp.jpg " alt="My Picture" class="about__img" />
         <div class="about__date">
           <p class="about__description">
-            Collaborative, responsible, detail-oriented, and growth mindset are the top four adjectives that best define my aptitude towards work.
-            <br/>I work diligently as an individual and as a team member. I develop professional desktop, web, and mobile applications. My tasks concern analyzing, testing, debugging, troubleshooting, and implementing based on user or system design specifications
+            Collaborative, responsible, detail-oriented, and growth mindset are the top four adjectives that best define
+            my aptitude towards work.
+            <br />I work diligently as an individual and as a team member. I develop professional desktop, web, and
+            mobile applications. My tasks concern analyzing, testing, debugging, troubleshooting, and implementing based
+            on user or system design specifications
             and have learned the skills of communication and teamwork
           </p>
           <div class="about__info">
             <div>
               <span class="about__info-title">01+</span>
-              <span class="about__info-name"
-                >Year <br />
-                experience</span
-              >
+              <span class="about__info-name">Year <br />
+                experience</span>
             </div>
             <div>
               <span class="about__info-title">30+</span>
-              <span class="about__info-name"
-                >Completed <br />
-                project</span
-              >
+              <span class="about__info-name">Completed <br />
+                project</span>
             </div>
             <div>
               <span class="about__info-title">01+</span>
-              <span class="about__info-name"
-                >Freelancer <br />
-                Development</span
-              >
+              <span class="about__info-name">Freelancer <br />
+                Development</span>
             </div>
           </div>
 
           <div class="about__buttons">
-            <a
-              download=""
-              href="assets/pdf/Ibrahim-Bagalwa-resume.pdf"
-              class="button button--flex"
-              >Download Cv <i class="uil uil-download-alt button__icon"></i
-            ></a>
+            <a download="" href="assets/pdf/Ibrahim-Bagalwa-resume.pdf" class="button button--flex">Download Cv <i
+                class="uil uil-download-alt button__icon"></i></a>
           </div>
         </div>
       </div>
-      </section>
-       <!--==================== SKILLS ====================-->
-       <section class="skills section" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <span class="section__subtitle">My Technical level</span>
-        <div class="skills__container container grid">
-          <div>
-            <!--==================== SKILLS 1====================-->
-            <div class="skills__content skills__open">
-              <div class="skills__header">
-                <i class="uil uil-brackets-curly skills__icon"></i>
-                <div>
-                  <h1 class="skills__title">Frontend Developer</h1>
-                  <span class="skills__subtitle">More Than years</span>
-                </div>
-                <i class="uil uil-angle-down skills__arrow"></i>
+    </section>
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <span class="section__subtitle">My Technical level</span>
+      <div class="skills__container container grid">
+        <div>
+          <!--==================== SKILLS 1====================-->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="uil uil-brackets-curly skills__icon"></i>
+              <div>
+                <h1 class="skills__title">Frontend Developer</h1>
+                <span class="skills__subtitle">More Than years</span>
               </div>
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">HTML</h3>
-                    <span class="skills__number">90%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__html"></span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">CSS</h3>
-                    <span class="skills__number">80%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__css"></span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Javascript</h3>
-                    <span class="skills__number">70%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__js"></span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">React</h3>
-                    <span class="skills__number">85%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__react"></span>
-                  </div>
-                </div>
-              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
             </div>
-            <!--==================== SKILLS 2 ====================-->
-            <div class="skills__content skills__close">
-              <div class="skills__header">
-                <i class="uil uil-server-network skills__icon"></i>
-                <div>
-                  <h1 class="skills__title">Backend Developer</h1>
-                  <span class="skills__subtitle">For a year</span>
+            <div class="skills__list grid">
+              <div class="skills__data ">
+                <div class="skills__titles">
+                  <h3 class="skills__name" style="margin-top: 0.7rem;">HTML</h3>
+                  <span class="skills__number"><a href="https://www.w3.org/html/" target="_blank"> <img
+                        src="https://img.icons8.com/color/48/000000/html-5.png" /> </a></span>
                 </div>
-                <i class="uil uil-angle-down skills__arrow"></i>
               </div>
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Node Js</h3>
-                    <span class="skills__number">80%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span
-                      class="skills__percentage skills__ruby-on-rails"
-                    ></span>
-                  </div>
-                </div>
 
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Django</h3>
-                    <span class="skills__number">45%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__nodejs"></span>
-                  </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name" style="margin-top: 0.7rem;">CSS</h3>
+                  <span class="skills__number"><a href="https://www.w3schools.com/css/" target="_blank"> <img
+                        src="https://img.icons8.com/color/48/000000/css3.png" />
+                    </a></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name" style="margin-top: 0.7rem;">Javascript</h3>
+                  <span class="skills__number"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                      target="_blank"> <img src="https://img.icons8.com/color/48/000000/javascript.png" /> </a></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name" style="margin-top: 0.7rem;">React</h3>
+                  <span class="skills__number"><a href="https://reactjs.org/" target="_blank"> <img
+                        src="https://img.icons8.com/color/48/000000/react-native.png" />
+                    </a></span>
                 </div>
               </div>
             </div>
           </div>
-
-          <div>
-            <!--==================== SKILLS 3====================-->
-            <div class="skills__content skills__close" >
-              <div class="skills__header">
-                <i class="uil uil-database skills__icon"></i>
-                <div>
-                  <h1 class="skills__title">Database + Design</h1>
-                  <span class="skills__subtitle">More Than 2 years</span>
-                </div>
-                <i class="uil uil-angle-down skills__arrow"></i>
+          <!--==================== SKILLS 2 ====================-->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="uil uil-server-network skills__icon"></i>
+              <div>
+                <h1 class="skills__title">Backend Developer</h1>
+                <span class="skills__subtitle">For a year</span>
               </div>
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Adobe xd</h3>
-                    <span class="skills__number">70%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__figma"></span>
-                  </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name" style="margin-top: 0.7rem;">Node Js</h3>
+                  <span class="skills__number"><a style="padding-right:8px;" href="https://nodejs.org" target="_blank">
+                      <img src="https://img.icons8.com/color/48/000000/nodejs.png" /> </a></span>
                 </div>
+              </div>
 
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">MySQL</h3>
-                    <span class="skills__number">80%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__sql"></span>
-                  </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name" style="margin-top: 0.7rem;">Django</h3>
+                  <span class="skills__number">
+                    <a style="padding-right:8px;" href="https://docs.djangoproject.com/en/4.0/" target="_blank"> <img
+                        src="https://img.icons8.com/color/48/000000/django.png" /> </a>
+                  </span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-       </section>
-      <!--==================== QUALIFICATION ====================-->
-      <section class="qualification section">
-        <h2 class="section__title">Qualification</h2>
-        <span class="section__subtitle">My personal journey</span>
-        <div class="qualification__container container">
-          <div class="qualification__tabs">
-            <div class="qualification__button button--flex qualification__active" data-target='#education'>
-              <i class="uil uil-graduation-cap qualification__icon"></i>
-              Education
-            </div>
-      
-            <div class="qualification__button button--flex" data-target='#work'>
-              <i class="uil uil-briefcase-alt qualification__icon"></i>
-              Work
-            </div>
-          </div>
-          <div class="qualification__sections">
-            <!--==================== QUALIFICATION  CONTENT 1====================-->
-            <div class="qualification__content qualification__active" data-content id="education">
-              <!--==================== QUALIFICATION 1====================-->
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Social Technique</h3>
-                  <span class="qualification__subtitle">Congo DRC - Rwenzori Institute</span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2010 - 2016 
-                  </div>
-                </div>
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-              </div>
-      
-              <!--==================== QUALIFICATION 4====================-->
-              <div class="qualification__data">
-                <div>
-                  
-                </div>
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <!-- <span class="qualification__line"></span> -->
-                </div>
-                <div>
-                  <h3 class="qualification__title">English Teaching</h3>
-                  <span class="qualification__subtitle">Congo DRC - Congo Peace Network</span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2018 - 2020
-                  </div>
-                </div>
-                
-              </div>
-      
-            </div>
-      
-            <!--==================== QUALIFICATION  CONTENT 1====================-->
-            <div class="qualification__content" data-content id="work">
-              <!--==================== QUALIFICATION 1====================-->
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Web Development</h3>
-                  <span class="qualification__subtitle">Remote(DRC) - L1000 Services</span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2020 - 2021 
-                  </div>
-                </div>
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-              </div>
-      
-              <!--==================== QUALIFICATION 4====================-->
-              <div class="qualification__data">
-                <div>
-                  
-                </div>
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <!-- <span class="qualification__line"></span> -->
-                </div>
-                <div>
-                  <h3 class="qualification__title">Computer Science</h3>
-                  <span class="qualification__subtitle">Congo DRC - Institut Supérieur d'Informatique & de Gestion</span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2016 - 2019 
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-      </section>
-      <section class="services section" id="services">
-        <h2 class="section__title">Services</h2>
-        <span class="section__subtitle">What i Offer</span>
 
-        <div class="services__container container grid">
-          <!--==================== SERVICE 1 ====================-->
-          <div class="services__content" >
-            <div>
-              <i class="uil uil-window-grid services__icon"></i>
-              <h3 class="services__title">
+        <div>
+          <!--==================== SKILLS 3====================-->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="uil uil-database skills__icon"></i>
+              <div>
+                <h1 class="skills__title">Database + Design</h1>
+                <span class="skills__subtitle">More Than 2 years</span>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Adobe xd</h3>
+                  <span class="skills__number"><a href="https://www.adobe.com/fr/products/xd.html" target="_blank"> <img
+                        src="https://img.icons8.com/fluency/24/000000/xd.png" /> </a></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name" style="margin-top:0.7rem">MySQL</h3>
+                  <span class="skills__number"><a href="https://www.mysql.com/" target="_blank"> <img
+                        src="https://img.icons8.com/fluent/50/000000/mysql-logo.png" /> </a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--==================== PORTFOLIO ====================-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Portfolio</h2>
+      <span class="section__subtitle">Most recent work</span>
+
+      <div class="portfolio__container container swiper-container">
+        <div class="swiper-wrapper">
+          <!--==================== PORTFOLIO Recipe app ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/schola.png" alt="Portfolio1" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Schola App</h3>
+              <p class="portfolio__description">
+                the Schola App is a multifunctional school management software
+                and communication between parents and school.
+              </p>
+              <ul class="tech">
+                <li>React Js</li>
+                <li>Redux</li>
+                <li>Node Js</li>
+                <li>MySQL</li>
+              </ul>
+              <a href="https://schola-app-v01.herokuapp.com/login"
+                class="button button--flex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 1 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/reitec.png" alt="Portfolio1" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Reitec-Info App</h3>
+              <p class="portfolio__description">
+                Reitec-Info App is an application facilitating training and capacity building in the humanitarian sector
+              </p>
+              <ul class="tech">
+                <li>Html 5</li>
+                <li>Css 3</li>
+                <li>Bootstrap 4</li>
+                <li>Js</li>
+                <li>Php</li>
+                <li>MySQL</li>
+              </ul>
+              <a href="https://www.reitecinfo.net/" class="button button--flex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+
+          <!--==================== PORTFOLIO 2 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/ms.jpg" alt="Portfolio1" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">L1000 Trans-Pay</h3>
+              <p class="portfolio__description">
+                L1000TransPay is a mobile application to facilitate payment on a bus or taxi via an L1000 card. also
+                allows
+                you to easily locate taxis that are near you.
+              </p>
+              <ul class="tech">
+                <li>Node Js</li>
+                <li>React Native</li>
+                <li>Css</li>
+                <li>Js</li>
+                <li>MySQL</li>
+              </ul>
+              <a href="#" class="button button--flex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 3 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/immob.png" alt="Portfolio1" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Immob Company</h3>
+              <p class="portfolio__description">
+                Immob-Company is an online home buying and selling platform. this allows people to find a home of their
+                choice in a short time and without spending too much
+              </p>
+              <ul class="tech">
+                <li>Django</li>
+                <li>MySQL</li>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Js</li>
+              </ul>
+              <a href="#" class="button button--flex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 3 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/mov.jpeg" alt="Portfolio1" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Movies And Me</h3>
+              <p class="portfolio__description">
+                MoviesAndMe is a mobile app to search movie and view information about the movie
+              </p>
+              <ul class="tech">
+                <li>React Native</li>
+                <li>Redux</li>
+                <li>Css</li>
+                <li>Js</li>
+              </ul>
+              <a href="#" class="button button--flex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next">
+          <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!--==================== QUALIFICATION ====================-->
+    <section class="qualification section">
+      <h2 class="section__title">Qualification</h2>
+      <span class="section__subtitle">My personal journey</span>
+      <div class="qualification__container container">
+        <div class="qualification__tabs">
+          <div class="qualification__button button--flex qualification__active" data-target='#education'>
+            <i class="uil uil-graduation-cap qualification__icon"></i>
+            Education
+          </div>
+
+          <div class="qualification__button button--flex" data-target='#work'>
+            <i class="uil uil-briefcase-alt qualification__icon"></i>
+            Work
+          </div>
+        </div>
+        <div class="qualification__sections">
+          <!--==================== QUALIFICATION  CONTENT 1====================-->
+          <div class="qualification__content qualification__active" data-content id="education">
+            <!--==================== QUALIFICATION 1====================-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Social Technique</h3>
+                <span class="qualification__subtitle">Congo DRC - Rwenzori Institute</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2010 - 2016
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION 4====================-->
+            <div class="qualification__data">
+              <div>
+
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <!-- <span class="qualification__line"></span> -->
+              </div>
+              <div>
+                <h3 class="qualification__title">English Teaching</h3>
+                <span class="qualification__subtitle">Congo DRC - Congo Peace Network</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2018 - 2020
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!--==================== QUALIFICATION  CONTENT 1====================-->
+          <div class="qualification__content" data-content id="work">
+            <!--==================== QUALIFICATION 1====================-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Web Development</h3>
+                <span class="qualification__subtitle">Remote(DRC) - L1000 Services</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2020 - 2021
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION 4====================-->
+            <div class="qualification__data">
+              <div>
+
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <!-- <span class="qualification__line"></span> -->
+              </div>
+              <div>
+                <h3 class="qualification__title">Computer Science</h3>
+                <span class="qualification__subtitle">Congo DRC - Institut Supérieur d'Informatique & de Gestion</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2016 - 2019
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="services section" id="services">
+      <h2 class="section__title">Services</h2>
+      <span class="section__subtitle">What i Offer</span>
+
+      <div class="services__container container grid">
+        <!--==================== SERVICE 1 ====================-->
+        <div class="services__content">
+          <div>
+            <i class="uil uil-window-grid services__icon"></i>
+            <h3 class="services__title">
+              Ui/Ux <br />
+              Designer
+            </h3>
+          </div>
+
+          <span class="button--flex button--small button--link services__button">
+            View More
+            <i class="uil uil-arrow-right button__icon"></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <h4 class="services__modal-title">
                 Ui/Ux <br />
                 Designer
-              </h3>
-            </div>
+              </h4>
+              <i class="uil uil-times services__modal-close"></i>
 
-            <span
-              class="button--flex button--small button--link services__button"
-            >
-              View More
-              <i class="uil uil-arrow-right button__icon"></i>
-            </span>
+              <ul class="services__modal-services grid">
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>I develop the user interface.</p>
+                </li>
 
-            <div class="services__modal">
-              <div class="services__modal-content">
-                <h4 class="services__modal-title">
-                  Ui/Ux <br />
-                  Designer
-                </h4>
-                <i class="uil uil-times services__modal-close"></i>
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>I create ux element interactions.</p>
+                </li>
 
-                <ul class="services__modal-services grid">
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I develop the user interface.</p>
-                  </li>
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>Web page development.</p>
+                </li>
 
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I create ux element interactions.</p>
-                  </li>
-
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Web page development.</p>
-                  </li>
-
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I position your company brand.</p>
-                  </li>
-                </ul>
-              </div>
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>I position your company brand.</p>
+                </li>
+              </ul>
             </div>
           </div>
+        </div>
 
-          <!--==================== SERVICE 2 ====================-->
-          <div class="services__content" >
-            <div>
-              <i class="uil uil-arrow services__icon"></i>
-              <h3 class="services__title">
+        <!--==================== SERVICE 2 ====================-->
+        <div class="services__content">
+          <div>
+            <i class="uil uil-arrow services__icon"></i>
+            <h3 class="services__title">
+              Frontend <br />
+              Developer
+            </h3>
+          </div>
+
+          <span class="button--flex button--small button--link services__button">
+            View More
+            <i class="uil uil-arrow-right button__icon"></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <h4 class="services__modal-title">
                 Frontend <br />
                 Developer
-              </h3>
-            </div>
+              </h4>
+              <i class="uil uil-times services__modal-close"></i>
 
-            <span
-              class="button--flex button--small button--link services__button"
-            >
-              View More
-              <i class="uil uil-arrow-right button__icon"></i>
-            </span>
+              <ul class="services__modal-services grid">
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>I develop the user interface.</p>
+                </li>
 
-            <div class="services__modal">
-              <div class="services__modal-content">
-                <h4 class="services__modal-title">
-                  Frontend <br />
-                  Developer
-                </h4>
-                <i class="uil uil-times services__modal-close"></i>
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>I create ux element interactions.</p>
+                </li>
 
-                <ul class="services__modal-services grid">
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I develop the user interface.</p>
-                  </li>
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>Web page development.</p>
+                </li>
 
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I create ux element interactions.</p>
-                  </li>
-
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Web page development.</p>
-                  </li>
-
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I position your company brand.</p>
-                  </li>
-                </ul>
-              </div>
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>I position your company brand.</p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-       <!--==================== PORTFOLIO ====================-->
-       <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">Portfolio</h2>
-        <span class="section__subtitle">Most recent work</span>
+    <!--==================== TESTIMONIAL ====================-->
+    <section class="testimonial section">
+      <h2 class="section__title">Testimonial</h2>
+      <span class="section__subtitle">My coding partner saying</span>
 
-        <div class="portfolio__container container swiper-container">
-          <div class="swiper-wrapper">
-            <!--==================== PORTFOLIO Recipe app ====================-->
-            <div class="portfolio__content grid swiper-slide" >
-              <img
-                src="assets/img/schola.png"
-                alt="Portfolio1"
-                
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Schola App</h3>
-                <p class="portfolio__description">
-                  the Schola App is a multifunctional school management software
-                  and communication between parents and school.
-                </p>
-                <ul class="tech">
-                  <li>React Js</li>
-                  <li>Redux</li>
-                  <li>Node Js</li>
-                  <li>MySQL</li>
-                </ul>
-                <a
-                  href="https://schola-app-v01.herokuapp.com/login"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  Demo
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
+      <div class="testimonial__container container swiper-container">
+        <div class="swiper-wrapper">
+          <!--==================== TESTIMONIAL 1 ====================-->
+          <div class="testmonial__content swiper-slide">
+            <div class="testimonial__data">
+              <div class="testimonial__header">
+                <img src="assets/img/davm.jpg" alt="Testimonial 1" class="testimonial__img" />
 
-            <!--==================== PORTFOLIO 1 ====================-->
-            <div class="portfolio__content grid swiper-slide" >
-              <img
-                src="assets/img/reitec.png"
-                alt="Portfolio1"
-                
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Reitec-Info App</h3>
-                <p class="portfolio__description">
-                  Reitec-Info App is an application facilitating training and capacity building in the humanitarian sector
-                </p>
-                <ul class="tech">
-                  <li>Html 5</li>
-                  <li>Css 3</li>
-                  <li>Bootstrap 4</li>
-                  <li>Js</li>
-                  <li>Php</li>
-                  <li>MySQL</li>
-                </ul>
-                <a
-                  href="https://www.reitecinfo.net/"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  Demo
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
-
-            
-            <!--==================== PORTFOLIO 2 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/ms.jpg"
-                alt="Portfolio1"
-              />
-              <div class="portfolio__data" >
-                <h3 class="portfolio__title">L1000 Trans-Pay</h3>
-                <p class="portfolio__description">
-                  L1000TransPay is a mobile application to facilitate payment on a bus or taxi via an L1000 card. also allows you to easily locate taxis that are near you.
-                </p>
-                <ul class="tech">
-                  <li>Node Js</li>
-                  <li>React Native</li>
-                  <li>Css</li>
-                  <li>Js</li>
-                  <li>MySQL</li>
-                </ul>
-                <a
-                  href="#"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  Demo
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
-
-            <!--==================== PORTFOLIO 3 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/immob.png"
-                alt="Portfolio1"
-              />
-              <div class="portfolio__data" >
-                <h3 class="portfolio__title">Immob Company</h3>
-                <p class="portfolio__description">
-                  Immob-Company is an online home buying and selling platform. this allows people to find a home of their choice in a short time and without spending too much
-                </p>
-                <ul class="tech">
-                  <li>Django</li>
-                  <li>MySQL</li>
-                  <li>Html</li>
-                  <li>Css</li>
-                  <li>Js</li>
-                </ul>
-                <a
-                  href="#"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  Demo
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
-
-            <!--==================== PORTFOLIO 3 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/mov.jpeg"
-                alt="Portfolio1"
-              />
-              <div class="portfolio__data" >
-                <h3 class="portfolio__title">Movies And Me</h3>
-                <p class="portfolio__description">
-                  MoviesAndMe is a mobile app to search movie and view information about the movie   
-                </p>
-                <ul class="tech">
-                  <li>React Native</li>
-                  <li>Redux</li>
-                  <li>Css</li>
-                  <li>Js</li>
-                </ul>
-                <a
-                  href="#"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  Demo
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-button-next">
-            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-          </div>
-          <div class="swiper-button-prev">
-            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-       </section>
-         <!--==================== TESTIMONIAL ====================-->
-         <section class="testimonial section">
-          <h2 class="section__title">Testimonial</h2>
-          <span class="section__subtitle">My coding partner saying</span>
-  
-          <div class="testimonial__container container swiper-container">
-            <div class="swiper-wrapper">
-              <!--==================== TESTIMONIAL 1 ====================-->
-              <div class="testmonial__content swiper-slide">
-                <div class="testimonial__data">
-                  <div class="testimonial__header">
-                    <img
-                      src="assets/img/davm.jpg"
-                      alt="Testimonial 1"
-                      class="testimonial__img"
-                    />
-  
-                    <div>
-                      <h3 class="testimonial__name">David Maene</h3>
-                      <span class="testimonial__client">Partner</span>
-                    </div>
-                  </div>
-  
-                  <div>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                  </div>
-                </div>
-  
-                <p class="testimonial__description">
-                  I have known Ibrahim for over five years, during which time we worked together on different web projects.
-  
-                  I have been consistently impressed with Ibrahim's attitude and productivity during the time that we worked together.
-  
-                  Ibrahim is both very bright and quite motivated. I am confident that he will devote himself to a position with your organization as a Software developer. He is a quick learner and has shown the ability to digest large volumes of information.
-                </p>
-              </div>
-              <!--==================== TESTIMONIAL 1 ====================-->
-              <div class="testmonial__content swiper-slide">
-                <div class="testimonial__data">
-                  <div class="testimonial__header">
-                    <img
-                      src="assets/img/jen.jpg"
-                      alt="Testimonial 1"
-                      class="testimonial__img"
-                    />
-  
-                    <div>
-                      <h3 class="testimonial__name">Jenny Chikwanine</h3>
-                      <span class="testimonial__client">Partner</span>
-                    </div>
-                  </div>
-  
-                  <div>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                  </div>
-                </div>
-  
-                <p class="testimonial__description">
-                  Working with Ibrahim was a real pleasure. I found him as someone with great experience and a profound understanding of complex problems. When you really get to connect with him, you'll find an incredible person with exceptional skills! I find his enthusiasm and dedication both inspiring and motivating. I have constantly felt Ibrahim was one of the most effective teammates I've ever had the opportunity of working with.
-                </p>
-              </div>
-  
-              <!--==================== TESTIMONIAL 3 ====================-->
-              <div class="testmonial__content swiper-slide">
-                <div class="testimonial__data">
-                  <div class="testimonial__header">
-                    <img
-                      src="assets/img/josh.png"
-                      alt="Testimonial 1"
-                      class="testimonial__img"
-                    />
-  
-                    <div>
-                      <h3 class="testimonial__name">Ishara Batey</h3>
-                      <span class="testimonial__client">Partner</span>
-                    </div>
-                  </div>
-  
-                  <div>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                  </div>
-                </div>
-  
-                <p class="testimonial__description">
-                  Ibrahim is an outstanding partner. I've worked with him at 42 Wolfsburg doing collaborative projects and he amazed me with his capacity to learn things instantly and deliver. He understands goals projects, codes, and concepts applied with the same passion that he explains and deploys. With a positive and hands-to-work mentality, you feel comfortable knowing that concerns are gone once he is in charge.
-                </p>
-              </div>
-            </div>
-            <div class="swiper-pagination swiper-pagination-testimonial"></div>
-          </div>
-         </section>
-  
-        <!--==================== CONTACT ME ====================-->
-        <section class="contact section" id="contact">
-          <h2 class="section__title">Contact me</h2>
-          <span class="section__subtitle">Get in touch</span>
-          <div class="contact__container container grid">
-            <div>
-              <div class="contact__information" >
-                <i class="uil uil-phone-alt contact-icon"></i>
                 <div>
-                  <h3 class="contact__title">Call me</h3>
-                  <span class="contact__subtitle">+250 (0) 791 049 558</span>
+                  <h3 class="testimonial__name">David Maene</h3>
+                  <span class="testimonial__client">Partner</span>
                 </div>
               </div>
-  
-              <div class="contact__information">
-                <i class="uil uil-envelope contact-icon"></i>
-                <div>
-                  <h3 class="contact__title">Email</h3>
-                  <span class="contact__subtitle">ibrahim.bagalwa.dev@gmail.com </span>
-                </div>
-              </div>
-  
-              <div class="contact__information">
-                <i class="uil uil-map-marker contact-icon"></i>
-                <div>
-                  <h3 class="contact__title">Location</h3>
-                  <span class="contact__subtitle"
-                    >Kigali - Rwanda Gasobo/Remema KG 185 St av. 4</span
-                  >
-                </div>
-              </div>
-            </div>
-  
-              
-            <form action="https://formspree.io/f/mgedaelq"
-            method="POST" class="contact__form grid" >
-              <div class="contact__inputs grid">
-                <div class="contact__content">
-                  <label for="name" class="contact__label">Name :</label>
-                  <input name="name" type="text" class="contact__input"required />
-                </div>
-  
-                <div class="contact__content">
-                  <label for="email" class="contact__label">Email :</label>
-                  <input name="email" type="email" class="contact__input" required/>
-                </div>
-              </div>
-              <div class="contact__content">
-                <label for="text" class="contact__label">Project :</label>
-                <input name="text" type="text" class="contact__input" />
-              </div>
-              <div class="contact__content">
-                <label for="message" class="contact__label">Message :</label>
-                <textarea
-                  name="message"
-                  id=""
-                  cols="0"
-                  rows="7"
-                  class="contact__input"
-                ></textarea>
-              </div>
-  
+
               <div>
-                <button type="submit" class="button button--flex">
-                  Send Message
-                  <i class="uil uil-message button__icon"></i>
-                </button>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
               </div>
-            </form>
-          </div>
-        </section>
-      </main>
-  
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-        <div class="footer__bg">
-          <div class="footer__container container grid">
-            <div>
-              <h1 class="footer__title">Ibrahim</h1>
-              <span class="footer__subtitle">Fullstack Developer</span>
             </div>
-  
-            <ul class="footer__links">
-              <li>
-                <a href="#services" class="footer__link">Services</a>
-              </li>
-              <li>
-                <a href="#portfolio" class="footer__link">Portfolio</a>
-              </li>
-              <li>
-                <a href="#contact" class="footer__link">Contact me</a>
-              </li>
-            </ul>
-  
-            <div class="footer__socials">
-              <a href="https://www.linkedin.com/in/IbrahimBagalwa/" class="footer__social">
-                <i class="uil uil-linkedin-alt"></i>
-              </a>
-              <a href="https://github.com/IbrahimBagalwa" class="footer__social">
-                <i class="uil uil-github-alt"></i>
-              </a>
-              <a href="https://twitter.com/ibrahim_Bagalwa" class="footer__social">
-                <i class="uil uil-twitter-alt"></i>
-              </a>
-            </div>
-          </div>
-          <p class="footer__copy">
-            &copy; Ibrahim Bagalwa <i class="uil uil-heart-alt footer-heart"></i>. All
-            right reverse
-          </p>
-        </div>
-      </footer>
-    <!--==================== SCROLL TOP ====================-->
-    <a href="" class="scrollup" id="scroll-up">
-      <i class="uil uil-arrow-up scrollup-icon"></i>
-    </a>
-    <!--==================== SWIPER JS ====================-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
 
-    <!--==================== MAIN JS ====================-->
-    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
-    <!-- <script>
+            <p class="testimonial__description">
+              I have known Ibrahim for over five years, during which time we worked together on different web projects.
+
+              I have been consistently impressed with Ibrahim's attitude and productivity during the time that we worked
+              together.
+
+              Ibrahim is both very bright and quite motivated. I am confident that he will devote himself to a position
+              with your organization as a Software developer. He is a quick learner and has shown the ability to digest
+              large volumes of information.
+            </p>
+          </div>
+          <!--==================== TESTIMONIAL 1 ====================-->
+          <div class="testmonial__content swiper-slide">
+            <div class="testimonial__data">
+              <div class="testimonial__header">
+                <img src="assets/img/jen.jpg" alt="Testimonial 1" class="testimonial__img" />
+
+                <div>
+                  <h3 class="testimonial__name">Jenny Chikwanine</h3>
+                  <span class="testimonial__client">Partner</span>
+                </div>
+              </div>
+
+              <div>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+              </div>
+            </div>
+
+            <p class="testimonial__description">
+              Working with Ibrahim was a real pleasure. I found him as someone with great experience and a profound
+              understanding of complex problems. When you really get to connect with him, you'll find an incredible
+              person with exceptional skills! I find his enthusiasm and dedication both inspiring and motivating. I have
+              constantly felt Ibrahim was one of the most effective teammates I've ever had the opportunity of working
+              with.
+            </p>
+          </div>
+
+          <!--==================== TESTIMONIAL 3 ====================-->
+          <div class="testmonial__content swiper-slide">
+            <div class="testimonial__data">
+              <div class="testimonial__header">
+                <img src="assets/img/josh.png" alt="Testimonial 1" class="testimonial__img" />
+
+                <div>
+                  <h3 class="testimonial__name">Ishara Batey</h3>
+                  <span class="testimonial__client">Partner</span>
+                </div>
+              </div>
+
+              <div>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+              </div>
+            </div>
+
+            <p class="testimonial__description">
+              Ibrahim is an outstanding partner. I've worked with him at 42 Wolfsburg doing collaborative projects and
+              he amazed me with his capacity to learn things instantly and deliver. He understands goals projects,
+              codes, and concepts applied with the same passion that he explains and deploys. With a positive and
+              hands-to-work mentality, you feel comfortable knowing that concerns are gone once he is in charge.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-testimonial"></div>
+      </div>
+    </section>
+
+    <!--==================== CONTACT ME ====================-->
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Contact me</h2>
+      <span class="section__subtitle">Get in touch</span>
+      <div class="contact__container container grid">
+        <div>
+          <div class="contact__information">
+            <i class="uil uil-phone-alt contact-icon"></i>
+            <div>
+              <h3 class="contact__title">Call me</h3>
+              <span class="contact__subtitle">+250 (0) 791 049 558</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-envelope contact-icon"></i>
+            <div>
+              <h3 class="contact__title">Email</h3>
+              <span class="contact__subtitle">ibrahim.bagalwa.dev@gmail.com </span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-map-marker contact-icon"></i>
+            <div>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__subtitle">Kigali - Rwanda Gasobo/Remema KG 185 St av. 5</span>
+            </div>
+          </div>
+        </div>
+
+        <form action="https://formspree.io/f/mbjqyrdd" method="POST" class="contact__form grid">
+          <div class="contact__inputs grid">
+            <div class="contact__content">
+              <label for="name" class="contact__label">Name :</label>
+              <input name="name" type="text" class="contact__input" required />
+            </div>
+
+            <div class="contact__content">
+              <label for="email" class="contact__label">Email :</label>
+              <input name="email" type="email" class="contact__input" required />
+            </div>
+          </div>
+          <div class="contact__content">
+            <label for="text" class="contact__label">Project :</label>
+            <input name="text" type="text" class="contact__input" />
+          </div>
+          <div class="contact__content">
+            <label for="message" class="contact__label">Message :</label>
+            <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
+          </div>
+
+          <div>
+            <button type="submit" class="button button--flex">
+              Send Message
+              <i class="uil uil-message button__icon"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title">Ibrahim</h1>
+          <span class="footer__subtitle">Fullstack Developer</span>
+        </div>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#services" class="footer__link">Services</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="footer__link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer__link">Contact me</a>
+          </li>
+        </ul>
+
+        <div class="footer__socials">
+          <a href="https://www.linkedin.com/in/IbrahimBagalwa/" class="footer__social">
+            <i class="uil uil-linkedin-alt"></i>
+          </a>
+          <a href="https://github.com/IbrahimBagalwa" class="footer__social">
+            <i class="uil uil-github-alt"></i>
+          </a>
+          <a href="https://twitter.com/ibrahim_Bagalwa" class="footer__social">
+            <i class="uil uil-twitter-alt"></i>
+          </a>
+        </div>
+      </div>
+      <p class="footer__copy">
+        &copy; Ibrahim Bagalwa <i class="uil uil-heart-alt footer-heart"></i>. All
+        right reverse
+      </p>
+    </div>
+  </footer>
+  <!--==================== SCROLL TOP ====================-->
+  <a href="" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup-icon"></i>
+  </a>
+  <!--==================== SWIPER JS ====================-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--==================== MAIN JS ====================-->
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+  <!-- <script>
       AOS.init();
     </script> -->
-    <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
+
 </html>
